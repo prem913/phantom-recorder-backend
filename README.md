@@ -1,13 +1,10 @@
-# Sample Hardhat Project
+# The Phantom Recoder Backend
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
-Try running some of the following tasks:
 
+Run following commands to run the project
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+npm run startlocal
+npm run ipfslocal
+npm run deploylocal
 ```
